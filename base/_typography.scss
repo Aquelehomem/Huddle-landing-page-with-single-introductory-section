@@ -1,0 +1,19 @@
+// headings-poppins
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+//body-Open sans
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    color:white;
+}
+h1{
+    font-family:$poppins;
+    font-weight: 550;
+}
+p{
+    font-family:$opensans;
+    font-size:1.2em;
+    @media screen and (min-width:1000px) {
+        font-size:1em;
+    }
+}
